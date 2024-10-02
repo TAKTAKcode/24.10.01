@@ -1,10 +1,15 @@
 package com.tak.study;
 
+import java.util.Scanner;
+
 public class Solution {
 
     public static void main(String[] args) {
 
-        System.out.println("맥북 인텔리제이 커밋 테스트");
+        Scanner sc = new Scanner(System.in);
+        String text = sc.next();
+
+        System.out.println(text);
     }
 
 }
